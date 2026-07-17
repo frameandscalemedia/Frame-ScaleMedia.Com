@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frame and Scale Media | Real Estate Video Production in Arizona</title>
+<meta name="description" content="Frame and Scale Media is an Arizona video production studio specializing in cinematic real estate listing films, plus event coverage, small business advertisements, and small business videography.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Frame and Scale Media | Real Estate Video Production">
+<meta property="og:description" content="Cinematic real estate listing films for Arizona agents — plus event coverage and video for small businesses.">
+<meta property="og:type" content="website">
+
+<!-- Favicon: simple corner-bracket viewfinder mark, inline so no extra file is needed -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2312181C'/%3E%3Cg stroke='%23C89B3C' stroke-width='9' fill='none'%3E%3Cpath d='M20 38V20h18'/%3E%3Cpath d='M80 38V20H62'/%3E%3Cpath d='M20 62v18h18'/%3E%3Cpath d='M80 62v18H62'/%3E%3C/g%3E%3Ccircle cx='50' cy='50' r='14' fill='%23C89B3C'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Required by the Dubsado inquiry form embed below, so the iframe resizes itself correctly -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.14/iframeResizer.min.js"></script>
+
+<style>
+  :root{
+    --ink:#12181C;
+    --ink-soft:#1B232A;
+    --teal:#1F3A3D;
+    --teal-soft:#28474A;
+    --gold:#C89B3C;
+    --gold-bright:#E0B94F;
+    --stone:#E8E3D6;
+    --paper:#F7F5EF;
+    --text-dark:#23282B;
+    --text-light:#F3F1E9;
+    --text-muted:#9AA3A6;
+    --max:1120px;
+    --display: 'Bebas Neue', sans-serif;
+    --body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --mono: 'IBM Plex Mono', monospace;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:var(--body);
+    color:var(--text-dark);
+    background:var(--paper);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img,svg{display:block;max-width:100%;}
+  a{color:inherit;}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 28px;}
+
+  h1,h2,h3{font-family:var(--display);letter-spacing:.01em;line-height:1.02;margin:0;font-weight:400;}
+  .eyebrow{
+    font-family:var(--mono);
+    font-size:12.5px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--gold);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:18px;
+  }
+  .eyebrow::before{content:"";width:26px;height:1px;background:var(--gold);display:inline-block;}
+
+  /* ---------- corner viewfinder frame (signature element) ---------- */
+  .viewfinder{position:relative;}
+  .corner{position:absolute;width:26px;height:26px;border-color:var(--gold);opacity:.9;}
+  .corner--tl{top:-10px;left:-10px;border-top:3px solid var(--gold);border-left:3px solid var(--gold);}
+  .corner--tr{top:-10px;right:-10px;border-top:3px solid var(--gold);border-right:3px solid var(--gold);}
+  .corner--bl{bottom:-10px;left:-10px;border-bottom:3px solid var(--gold);border-left:3px solid var(--gold);}
+  .corner--br{bottom:-10px;right:-10px;border-bottom:3px solid var(--gold);border-right:3px solid var(--gold);}
+
+  /* ---------- nav ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(18,24,28,.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid rgba(200,155,60,.18);
+  }
+  nav.wrap{display:flex;align-items:center;justify-content:space-between;height:76px;}
+  .logo{
+    font-family:var(--display);
+    font-size:22px;
+    letter-spacing:.03em;
+    color:var(--text-light);
+    display:flex;align-items:center;gap:10px;
+    text-decoration:none;
+  }
+  .logo svg{width:22px;height:22px;}
+  .nav-links{display:flex;align-items:center;gap:34px;list-style:none;margin:0;padding:0;}
+  .nav-links a{
+    font-size:14px;color:var(--text-light);text-decoration:none;
+    opacity:.8;transition:opacity .2s ease;
+  }
+  .nav-links a:hover{opacity:1;}
+  .btn{
+    font-family:var(--mono);
+    font-size:13px;
+    letter-spacing:.04em;
+    padding:12px 20px;
+    border-radius:2px;
+    text-decoration:none;
+    display:inline-block;
+    transition:transform .2s ease, background .2s ease, color .2s ease;
+    border:1px solid transparent;
+  }
+  .btn--gold{background:var(--gold);color:var(--ink);}
+  .btn--gold:hover{background:var(--gold-bright);transform:translateY(-2px);}
+  .btn--outline{border-color:rgba(243,241,233,.4);color:var(--text-light);}
+  .btn--outline:hover{border-color:var(--gold);color:var(--gold);}
+  .btn--outline-dark{border-color:rgba(35,40,43,.35);color:var(--text-dark);}
+  .btn--outline-dark:hover{border-color:var(--teal);background:var(--teal);color:var(--text-light);}
+
+  .nav-toggle{display:none;background:none;border:0;color:var(--text-light);font-size:26px;cursor:pointer;}
+
+  /* ---------- hero ---------- */
+  .hero{
+    background:radial-gradient(120% 140% at 78% 8%, var(--teal-soft) 0%, var(--ink) 55%);
+    color:var(--text-light);
+    padding:96px 0 110px;
+    overflow:hidden;
+  }
+  .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;}
+  .hero h1{font-size:clamp(38px,5.6vw,64px);color:var(--text-light);}
+  .hero h1 span{color:var(--gold);}
+  .hero p.lede{
+    font-size:18px;max-width:46ch;color:var(--text-muted);margin:22px 0 34px;
+  }
+  .hero .actions{display:flex;gap:16px;flex-wrap:wrap;}
+
+  .focus-ring{
+    width:100%;max-width:340px;justify-self:center;
+    filter:drop-shadow(0 20px 40px rgba(0,0,0,.35));
+  }
+
+  /* ---------- section basics ---------- */
+  section{padding:100px 0;}
+  .section--stone{background:var(--stone);}
+  .section--ink{background:var(--ink);color:var(--text-light);}
+  .section--paper{background:var(--paper);}
+
+  /* ---------- real estate (flagship) ---------- */
+  .re-grid{display:grid;grid-template-columns:1fr .8fr;gap:64px;align-items:start;}
+  .re-grid h2{font-size:clamp(32px,4.4vw,50px);max-width:14ch;}
+  .re-grid p.body-lg{font-size:17.5px;max-width:52ch;color:var(--text-dark);opacity:.85;margin:20px 0 30px;}
+  .feature-list{list-style:none;margin:0 0 34px;padding:0;display:grid;gap:14px;}
+  .feature-list li{display:flex;gap:12px;align-items:flex-start;font-size:15.5px;}
+  .feature-list li::before{
+    content:"";flex:0 0 auto;width:9px;height:9px;margin-top:6px;
+    background:var(--gold);
+    transform:rotate(45deg);
+  }
+  .re-card{
+    background:var(--ink);color:var(--text-light);
+    padding:38px 34px;position:relative;
+    border:1px solid rgba(200,155,60,.25);
+  }
+  .re-card .eyebrow{color:var(--gold);}
+  .re-card p{color:var(--text-muted);font-size:15px;}
+  .re-card strong{color:var(--text-light);font-family:var(--display);font-size:34px;display:block;margin-bottom:4px;letter-spacing:.02em;}
+
+  /* ---------- services grid ---------- */
+  .services-head{max-width:60ch;margin-bottom:56px;}
+  .services-head h2{font-size:clamp(30px,4vw,44px);color:var(--text-light);}
+  .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(243,241,233,.12);}
+  .service-card{
+    background:var(--ink-soft);padding:38px 30px;
+    transition:background .25s ease;
+  }
+  .service-card:hover{background:var(--teal);}
+  .service-card .eyebrow{color:var(--gold);}
+  .service-card h3{font-family:var(--body);font-weight:600;font-size:19px;color:var(--text-light);margin-bottom:10px;}
+  .service-card p{font-size:14.5px;color:var(--text-muted);margin:0;}
+
+  /* ---------- statement ---------- */
+  .statement{
+    background:var(--teal);color:var(--text-light);
+    padding:110px 0;text-align:center;
+  }
+  .statement p{
+    font-family:var(--display);font-weight:400;
+    font-size:clamp(26px,4.4vw,46px);
+    max-width:20ch;margin:0 auto;line-height:1.15;
+  }
+  .statement .rule{width:64px;height:3px;background:var(--gold);margin:34px auto 0;}
+
+  /* ---------- about ---------- */
+  .about-grid{display:grid;grid-template-columns:.8fr 1fr;gap:64px;align-items:center;}
+  .about-grid h2{font-size:clamp(30px,4vw,44px);max-width:12ch;}
+  .about-grid p{font-size:16.5px;opacity:.85;max-width:54ch;}
+
+  /* ---------- contact ---------- */
+  .contact{background:var(--ink);color:var(--text-light);padding:110px 0 90px;}
+  .contact h2{font-size:clamp(34px,5.2vw,58px);color:var(--text-light);max-width:16ch;margin-bottom:26px;}
+  .contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:end;}
+  .contact-info{list-style:none;margin:0;padding:0;display:grid;gap:16px;}
+  .contact-info li{display:flex;flex-direction:column;font-size:15px;}
+  .contact-info span.label{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--gold);text-transform:uppercase;margin-bottom:4px;}
+  .contact-info a{text-decoration:none;font-size:17px;}
+  .contact-info a:hover{color:var(--gold);}
+
+  .form-card{
+    margin-top:70px;
+    background:var(--paper);
+    border-radius:6px;
+    padding:8px;
+    border:1px solid rgba(200,155,60,.25);
+  }
+  .form-card iframe{width:100%;border-radius:2px;}
+
+  footer{background:var(--ink);border-top:1px solid rgba(243,241,233,.1);padding:26px 0;}
+  footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13px;color:var(--text-muted);}
+
+  /* ---------- reveal on scroll ---------- */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease, transform .7s ease;}
+  .reveal.is-visible{opacity:1;transform:none;}
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .reveal{opacity:1;transform:none;transition:none;}
+  }
+
+  /* ---------- responsive ---------- */
+  @media (max-width:860px){
+    .hero .wrap{grid-template-columns:1fr;}
+    .focus-ring{max-width:220px;order:-1;}
+    .re-grid, .about-grid, .contact-grid{grid-template-columns:1fr;}
+    .service-grid{grid-template-columns:1fr;}
+    .nav-links{
+      position:fixed;inset:76px 0 0 0;background:var(--ink);
+      flex-direction:column;justify-content:flex-start;align-items:flex-start;
+      padding:36px 28px;gap:26px;
+      transform:translateX(100%);transition:transform .3s ease;
+    }
+    .nav-links.open{transform:translateX(0);}
+    .nav-links a{font-size:20px;}
+    .nav-toggle{display:block;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a href="#home" class="logo" aria-label="Frame and Scale Media home">
+      <svg viewBox="0 0 100 100"><g stroke="#C89B3C" stroke-width="9" fill="none"><path d="M20 38V20h18"/><path d="M80 38V20H62"/><path d="M20 62v18h18"/><path d="M80 62v18H62"/></g><circle cx="50" cy="50" r="12" fill="#C89B3C"/></svg>
+      FRAME &amp; SCALE
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#real-estate">Real Estate</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact" class="btn btn--gold">Start a Project</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">00:01 — Frame and Scale Media</p>
+        <h1>Real estate video that gets more <span>showings booked.</span></h1>
+        <p class="lede">Cinematic listing films and drone footage for Arizona agents — plus event coverage, small business advertisements, and video for any small business that wants more customers walking through the door.</p>
+        <div class="actions">
+          <a href="#contact" class="btn btn--gold">Book a Listing Shoot</a>
+          <a href="#services" class="btn btn--outline">See Everything We Do</a>
+        </div>
+      </div>
+      <div class="viewfinder focus-ring" aria-hidden="true">
+        <span class="corner corner--tl"></span><span class="corner corner--tr"></span>
+        <span class="corner corner--bl"></span><span class="corner corner--br"></span>
+        <svg viewBox="0 0 300 300">
+          <circle cx="150" cy="150" r="120" fill="none" stroke="#28474A" stroke-width="2"/>
+          <circle cx="150" cy="150" r="92" fill="none" stroke="#9AA3A6" stroke-width="1"/>
+          <g stroke="#C89B3C" stroke-width="2">
+            <line x1="150" y1="30" x2="150" y2="48"/>
+            <line x1="150" y1="252" x2="150" y2="270"/>
+            <line x1="30" y1="150" x2="48" y2="150"/>
+            <line x1="252" y1="150" x2="270" y2="150"/>
+          </g>
+          <g font-family="IBM Plex Mono" font-size="11" fill="#F3F1E9">
+            <text x="140" y="26">&#8734;</text>
+            <text x="132" y="285">0.5m</text>
+            <text x="6" y="154">2m</text>
+            <text x="264" y="154">1m</text>
+          </g>
+          <circle cx="150" cy="150" r="6" fill="#C89B3C"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REAL ESTATE (FLAGSHIP) ================= -->
+  <section class="section--paper" id="real-estate">
+    <div class="wrap re-grid">
+      <div class="reveal">
+        <p class="eyebrow">00:02 — Our Focus</p>
+        <h2>Real estate is what we do best.</h2>
+        <p class="body-lg">A listing shot well doesn't just look good — it sells faster and gets more of the right people through the door. We build every real estate project around your timeline, your market, and the story that gets a buyer to book a showing.</p>
+        <ul class="feature-list">
+          <li>Cinematic listing walkthroughs</li>
+          <li>Aerial &amp; drone footage</li>
+          <li>Agent brand &amp; personal marketing films</li>
+          <li>Fast turnaround built around your listing deadlines</li>
+        </ul>
+        <a href="#contact" class="btn btn--outline-dark">Get a Real Estate Quote</a>
+      </div>
+      <div class="re-card reveal">
+        <p class="eyebrow">Flagship Service</p>
+        <strong>01</strong>
+        <p>Real estate is our primary focus — everything else we offer is built to support agents, brokerages, and the local businesses around them.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECONDARY SERVICES ================= -->
+  <section class="section--ink" id="services">
+    <div class="wrap">
+      <div class="services-head reveal">
+        <p class="eyebrow">00:03 — Also Available</p>
+        <h2>Beyond the listing.</h2>
+      </div>
+      <div class="service-grid reveal">
+        <article class="service-card">
+          <p class="eyebrow">00:03</p>
+          <h3>Event Coverage</h3>
+          <p>Weddings, corporate events, and community gatherings — captured so the story doesn't just get remembered, it gets rewatched.</p>
+        </article>
+        <article class="service-card">
+          <p class="eyebrow">00:04</p>
+          <h3>Small Business Advertisements</h3>
+          <p>Commercials and promo content built to send local customers straight to your door — not just views.</p>
+        </article>
+        <article class="service-card">
+          <p class="eyebrow">00:05</p>
+          <h3>Small Business Videography</h3>
+          <p>Behind-the-scenes footage, testimonials, and social content for small businesses that want people to actually see the work.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATEMENT ================= -->
+  <section class="statement">
+    <div class="wrap">
+      <p class="reveal">We don't make videos for the sake of pretty footage. We make videos that get you booked, called, and hired.</p>
+      <div class="rule"></div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section--stone" id="about">
+    <div class="wrap about-grid">
+      <div class="reveal">
+        <p class="eyebrow">00:06 — Who We Are</p>
+        <h2>Built by two people who care about the details.</h2>
+      </div>
+      <div class="reveal">
+        <p>Frame and Scale Media is an Arizona-based video production and advertising studio founded by Brennan and Caden. We handle everything from the first phone call to the final cut — because a video is only as good as the plan behind it. Real estate is our focus, but we bring the same process and care to every event and small business we work with.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <p class="eyebrow">00:07 — Let's Talk</p>
+        <h2>Ready to get more eyes on your business?</h2>
+        <a href="#inquiry-form" class="btn btn--gold">Start Your Project</a>
+      </div>
+      <ul class="contact-info reveal">
+        <li>
+          <span class="label">Email</span>
+          <a href="mailto:contact@frameandscalemedia.com">contact@frameandscalemedia.com</a>
+        </li>
+        <li>
+          <span class="label">Phone</span>
+          <a href="tel:+10000000000">(000) 000-0000</a>
+          <!-- TODO: replace with your Google Voice number -->
+        </li>
+        <li>
+          <span class="label">Instagram</span>
+          <a href="https://instagram.com/frameandscalemedia" target="_blank" rel="noopener">@frameandscalemedia</a>
+          <!-- TODO: replace with your real handle -->
+        </li>
+      </ul>
+    </div>
+
+    <div class="wrap">
+      <div class="form-card reveal" id="inquiry-form">
+        <iframe src="https://hello.dubsado.com/public/form/view/6a597cdb8f007a88590dcd3b?iframe=true" frameBorder="0" width="100%" height="1000"></iframe>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">setTimeout(function(){iFrameResize({checkOrigin: false, warningTimeout: 0});},30);</script>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Frame and Scale Media. Based in Arizona.</span>
+    <span>Real Estate &middot; Events &middot; Small Business Video</span>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', open);
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }));
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('is-visible'));
+  }
+</script>
+
+</body>
+</html>
