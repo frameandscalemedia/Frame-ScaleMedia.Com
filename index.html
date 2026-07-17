@@ -21,6 +21,9 @@
 <!-- Required by the Dubsado inquiry form embed below, so the iframe resizes itself correctly -->
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.14/iframeResizer.min.js"></script>
 
+<!-- Required by the Elfsight Instagram feed embed -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+
 <style>
   :root{
     --ink:#12181C;
@@ -165,6 +168,12 @@
   .re-card p{color:var(--text-muted);font-size:15px;}
   .re-card strong{color:var(--text-light);font-family:var(--display);font-size:34px;display:block;margin-bottom:4px;letter-spacing:.02em;}
 
+  /* ---------- instagram ---------- */
+  .ig-head{max-width:640px;margin:0 auto 40px;text-align:center;}
+  .ig-head .eyebrow{justify-content:center;}
+  .ig-head h2{font-size:clamp(28px,3.6vw,40px);}
+  .ig-follow{text-align:center;margin-top:36px;}
+
   /* ---------- services grid ---------- */
   .services-head{max-width:60ch;margin-bottom:56px;}
   .services-head h2{font-size:clamp(30px,4vw,44px);color:var(--text-light);}
@@ -301,11 +310,28 @@
     </div>
   </section>
 
+  <!-- ================= INSTAGRAM ================= -->
+  <section class="section--stone" id="instagram">
+    <div class="wrap">
+      <div class="ig-head reveal">
+        <p class="eyebrow">00:02 — Follow Along</p>
+        <h2>Straight from the feed.</h2>
+      </div>
+      <div class="reveal">
+        <!-- Elfsight Instagram Feed | Frame&ScaleMedia Feed -->
+        <div class="elfsight-app-fdfba5a1-5fe8-47db-be66-837d12bdf791" data-elfsight-app-lazy></div>
+      </div>
+      <div class="ig-follow reveal">
+        <a href="https://instagram.com/frameandscalemedia" target="_blank" rel="noopener" class="btn btn--outline-dark">Follow @frameandscalemedia</a>
+      </div>
+    </div>
+  </section>
+
   <!-- ================= REAL ESTATE (FLAGSHIP) ================= -->
   <section class="section--paper" id="real-estate">
     <div class="wrap re-grid">
       <div class="reveal">
-        <p class="eyebrow">00:02 — Our Focus</p>
+        <p class="eyebrow">00:03 — Our Focus</p>
         <h2>Real estate is what we do best.</h2>
         <p class="body-lg">A listing shot well doesn't just look good — it sells faster and gets more of the right people through the door. We build every real estate project around your timeline, your market, and the story that gets a buyer to book a showing.</p>
         <ul class="feature-list">
@@ -328,22 +354,22 @@
   <section class="section--ink" id="services">
     <div class="wrap">
       <div class="services-head reveal">
-        <p class="eyebrow">00:03 — Also Available</p>
+        <p class="eyebrow">00:04 — Also Available</p>
         <h2>Beyond the listing.</h2>
       </div>
       <div class="service-grid reveal">
         <article class="service-card">
-          <p class="eyebrow">00:03</p>
+          <p class="eyebrow">00:04</p>
           <h3>Event Coverage</h3>
           <p>Weddings, corporate events, and community gatherings — captured so the story doesn't just get remembered, it gets rewatched.</p>
         </article>
         <article class="service-card">
-          <p class="eyebrow">00:04</p>
+          <p class="eyebrow">00:05</p>
           <h3>Small Business Advertisements</h3>
           <p>Commercials and promo content built to send local customers straight to your door — not just views.</p>
         </article>
         <article class="service-card">
-          <p class="eyebrow">00:05</p>
+          <p class="eyebrow">00:06</p>
           <h3>Small Business Videography</h3>
           <p>Behind-the-scenes footage, testimonials, and social content for small businesses that want people to actually see the work.</p>
         </article>
@@ -363,7 +389,7 @@
   <section class="section--stone" id="about">
     <div class="wrap about-grid">
       <div class="reveal">
-        <p class="eyebrow">00:06 — Who We Are</p>
+        <p class="eyebrow">00:07 — Who We Are</p>
         <h2>Built by two people who care about the details.</h2>
       </div>
       <div class="reveal">
@@ -376,7 +402,7 @@
   <section class="contact" id="contact">
     <div class="wrap contact-grid">
       <div class="reveal">
-        <p class="eyebrow">00:07 — Let's Talk</p>
+        <p class="eyebrow">00:08 — Let's Talk</p>
         <h2>Ready to get more eyes on your business?</h2>
         <a href="#inquiry-form" class="btn btn--gold">Start Your Project</a>
       </div>
@@ -387,8 +413,7 @@
         </li>
         <li>
           <span class="label">Phone</span>
-          <a href="tel:+10000000000">(000) 000-0000</a>
-          <!-- TODO: replace with your Google Voice number -->
+          <a href="tel:+16024924807">(602) 492-4807</a>
         </li>
         <li>
           <span class="label">Instagram</span>
