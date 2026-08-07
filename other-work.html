@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Frame and Scale Media | Real Estate Video Production in Arizona</title>
+<title>Other Work | Frame and Scale Media</title>
 <meta name="description" content="Frame and Scale Media is an Arizona video production studio specializing in cinematic real estate listing films, plus event coverage, small business advertisements, and small business videography.">
 
 <!-- Open Graph -->
@@ -337,187 +337,114 @@
     .nav-links a{font-size:20px;}
     .nav-toggle{display:block;}
   }
+
+<style>
+  /* ---------- Other Work page ---------- */
+  .other-hero{background:var(--ink);color:var(--text-light);padding:100px 0 86px;position:relative;overflow:hidden;}
+  .other-hero::before{content:"";position:absolute;width:680px;height:680px;border-radius:50%;right:-240px;top:-300px;background:radial-gradient(circle,rgba(200,155,60,.16),transparent 68%);pointer-events:none;}
+  .other-hero .wrap{position:relative;z-index:1;}
+  .other-hero h1{font-size:clamp(48px,8vw,94px);max-width:10ch;line-height:.95;margin:14px 0 24px;}
+  .other-hero p{max-width:62ch;color:var(--text-muted);font-size:18px;margin:0;}
+  .other-grid-section{background:var(--stone);padding:92px 0 110px;}
+  .other-grid-head{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:42px;}
+  .other-grid-head h2{font-size:clamp(32px,4.5vw,52px);max-width:12ch;}
+  .other-grid-head > p{max-width:44ch;color:#5f6871;margin:0;}
+  .other-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  .other-card{min-height:430px;background:var(--paper);border:1px solid rgba(9,27,52,.12);padding:30px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;}
+  .other-card::after{content:"";position:absolute;width:220px;height:220px;border-radius:50%;right:-90px;bottom:-100px;background:rgba(200,155,60,.12);}
+  .other-card--dark{background:var(--ink);color:var(--text-light);border-color:rgba(200,155,60,.2);}
+  .other-card--dark p{color:var(--text-muted);}
+  .other-card h3{font-size:clamp(27px,3vw,38px);max-width:10ch;margin:12px 0 14px;}
+  .other-card p{max-width:34ch;color:#5f6871;margin:0;}
+  .other-card .card-number{font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--gold);text-transform:uppercase;}
+  .other-card .card-footer{display:flex;justify-content:space-between;align-items:end;gap:20px;position:relative;z-index:1;}
+  .other-card .card-mark{font-family:var(--display);font-size:76px;line-height:.8;color:rgba(200,155,60,.28);}
+  .other-cta{background:var(--teal);color:var(--text-light);padding:100px 0;text-align:center;}
+  .other-cta h2{font-size:clamp(34px,5vw,58px);max-width:14ch;margin:0 auto 22px;}
+  .other-cta p{max-width:56ch;margin:0 auto 30px;color:var(--text-muted);}
+  @media(max-width:860px){.other-grid{grid-template-columns:1fr;}.other-grid-head{display:block}.other-grid-head>p{margin-top:16px}.other-card{min-height:340px;}}
+  @media(max-width:600px){.other-hero{padding:76px 0 70px}.other-grid-section{padding:70px 0 78px}.other-card{min-height:300px;padding:25px}.other-cta{padding:76px 0}}
 </style>
 </head>
 <body>
-
 <header>
   <nav class="wrap">
-    <a href="#home" class="logo" aria-label="Frame and Scale Media home">
+    <a href="index.html#home" class="logo" aria-label="Frame and Scale Media home">
       <svg viewBox="0 0 100 100"><g stroke="#C89B3C" stroke-width="9" fill="none"><path d="M20 38V20h18"/><path d="M80 38V20H62"/><path d="M20 62v18h18"/><path d="M80 62v18H62"/></g><circle cx="50" cy="50" r="12" fill="#C89B3C"/></svg>
       FRAME &amp; SCALE
     </a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#real-estate-work">Real Estate</a></li>
-      <li><a href="other-work.html">Other Work</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#inquiry" class="btn btn--gold">Start a Project</a></li>
+      <li><a href="index.html#real-estate-work">Real Estate</a></li>
+      <li><a href="other-work.html" aria-current="page">Other Work</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="index.html#inquiry" class="btn btn--gold">Start a Project</a></li>
     </ul>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
   </nav>
 </header>
-
 <main>
-
-  <!-- ================= MAIN BRAND VIDEO ================= -->
-  <section class="hero" id="home">
-    <div class="hero-video-wrap">
-      <video class="hero-video" autoplay loop playsinline controls preload="metadata" aria-label="Frame and Scale Media brand reel">
-        <source src="assets/F&S us.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-      </video>
-      <div class="hero-player-note" id="heroPlayerNote">Sound &amp; playback controls available</div><button class="hero-sound-btn" id="heroSoundBtn" type="button" hidden>Enable sound</button>
-    </div>
-    <div class="hero-actions">
-      <a href="#inquiry" class="btn btn--gold">Book a Listing Shoot</a>
-      <a href="other-work.html" class="btn btn--outline">See Everything We Do</a>
+  <section class="other-hero">
+    <div class="wrap">
+      <p class="eyebrow">Other Work</p>
+      <h1>More than real estate.</h1>
+      <p>Real estate is where we spend a lot of our time, but it isn’t the limit of what we can do. We bring the same energy, creativity, and attention to detail to brands, businesses, events, and the projects that don’t fit neatly into one category.</p>
     </div>
   </section>
 
-  <!-- ================= INQUIRY / SECOND MAJOR PIECE ================= -->
-  <section class="inquiry" id="inquiry">
+  <section class="other-grid-section">
     <div class="wrap">
-      <div class="inquiry-head reveal">
-        <p class="eyebrow">00:01 — Start Here</p>
-        <h2>Let's build something worth booking.</h2>
-        <p>Tell us a little about the property, business, event, or campaign. We'll take it from there and follow up with the right next step.</p>
-      </div>
-      <div class="inquiry-grid">
-        <div class="motion-panel reveal">
-          <iframe src="assets/frame_and_scale_intro.html" title="Frame & Scale Media animated brand intro" loading="lazy"></iframe>
-          <span class="motion-caption">Frame &amp; Scale — slow motion loop</span>
-        </div>
-        <div class="inquiry-card reveal viewfinder">
-          <span class="corner corner--tl"></span><span class="corner corner--tr"></span>
-          <span class="corner corner--bl"></span><span class="corner corner--br"></span>
-          <div data-fillout-id="tx1VTzhS8Yus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <script src="https://server.fillout.com/embed/v1/"></script>
-
-  <!-- ================= INSTAGRAM ================= -->
-  <section class="section--stone" id="instagram">
-    <div class="wrap">
-      <div class="ig-head reveal">
-        <p class="eyebrow">00:02 — Follow Along</p>
-        <h2>Straight from the feed.</h2>
-      </div>
-      <div class="reveal">
-        <!-- Elfsight Instagram Feed | Frame&ScaleMedia Feed -->
-        <div class="elfsight-app-fdfba5a1-5fe8-47db-be66-837d12bdf791" data-elfsight-app-lazy></div>
-      </div>
-      <div class="ig-follow reveal">
-        <a href="https://instagram.com/frameandscalemedia" target="_blank" rel="noopener" class="btn btn--outline-dark">Follow @frameandscalemedia</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= LISTING SHOWCASE ================= -->
-  <section class="listing-showcase" id="real-estate-work" aria-label="Recent real estate work">
-    <div class="wrap">
-      <div class="showcase-head reveal">
+      <div class="other-grid-head reveal">
         <div>
-          <p class="eyebrow">00:04 — Recent Listing</p>
-          <h2>Make the property feel like the destination.</h2>
+          <p class="eyebrow">01 — Outside the Listing</p>
+          <h2>Different projects. Same standard.</h2>
         </div>
-        <p>Still photography and motion work that give buyers a reason to stop scrolling, look closer, and book the showing.</p>
       </div>
-      <div class="showcase-grid">
-        <div class="showcase-video viewfinder reveal">
-          <span class="corner corner--tl"></span><span class="corner corner--tr"></span>
-          <span class="corner corner--bl"></span><span class="corner corner--br"></span>
-          <video autoplay muted loop playsinline preload="metadata" aria-label="Vertical real estate video showcase">
-            <source src="assets/Phase 3 Linda.mp4" type="video/mp4">
-          </video>
-          <span class="showcase-label">Motion / Vertical</span>
-        </div>
-        <div class="showcase-photos">
-          <figure class="showcase-photo reveal">
-            <img src="assets/Linda Kitchen.jpg" alt="Bright staged kitchen with large island and pendant lighting" loading="lazy">
-            <span class="showcase-label">Kitchen / Still</span>
-          </figure>
-          <figure class="showcase-photo reveal">
-            <img src="assets/Living Room.jpg" alt="Open living room and kitchen interior with natural light" loading="lazy">
-            <span class="showcase-label">Living / Still</span>
-          </figure>
-          <figure class="showcase-photo reveal">
-            <img src="assets/Bedroom.jpg" alt="Staged bedroom with natural light and neutral finishes" loading="lazy">
-            <span class="showcase-label">Bedroom / Still</span>
-          </figure>
-        </div>
+      <div class="other-grid">
+        <article class="other-card other-card--dark reveal">
+          <div>
+            <span class="card-number">02 — Automotive</span>
+            <h3>Cars deserve cinematic treatment.</h3>
+            <p>Rolling shots, detail-driven edits, dealership campaigns, and automotive content built to make people stop and look twice.</p>
+          </div>
+          <div class="card-footer"><span class="card-number">Automotive Video</span><span class="card-mark">01</span></div>
+        </article>
+        <article class="other-card reveal">
+          <div>
+            <span class="card-number">03 — Small Business</span>
+            <h3>Make your business impossible to ignore.</h3>
+            <p>Advertisements, social content, testimonials, and behind-the-scenes work that helps local businesses show people what makes them worth choosing.</p>
+          </div>
+          <div class="card-footer"><span class="card-number">Advertising + Social</span><span class="card-mark">02</span></div>
+        </article>
+        <article class="other-card reveal">
+          <div>
+            <span class="card-number">04 — Events</span>
+            <h3>Capture the moments people want back.</h3>
+            <p>Weddings, corporate gatherings, community events, and the in-between moments that make a day feel like more than a schedule.</p>
+          </div>
+          <div class="card-footer"><span class="card-number">Event Coverage</span><span class="card-mark">03</span></div>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- ================= STATEMENT ================= -->
-  <section class="statement">
+  <section class="other-cta">
     <div class="wrap">
-      <p class="reveal">We don't make videos for the sake of pretty footage. We make videos that get you booked, called, and hired.</p>
-      <div class="rule"></div>
+      <p class="eyebrow">05 — Have Something Different?</p>
+      <h2>Tell us what you’re trying to make.</h2>
+      <p>We’re always interested in a project with a good story, a clear goal, and a client who cares about getting it right.</p>
+      <a href="index.html#inquiry" class="btn btn--gold">Start a Project</a>
     </div>
   </section>
-
-  <!-- ================= ABOUT ================= -->
-  <section class="section--stone" id="about">
-    <div class="wrap about-grid">
-      <div class="reveal">
-        <p class="eyebrow">00:07 — Who We Are</p>
-        <h2>Driven to do work our clients are proud to put their name on.</h2>
-      </div>
-      <div class="reveal">
-        <p>Frame and Scale Media is an Arizona-based video production and advertising studio founded by Brennan and Caden. We’re motivated, talented, and genuinely excited to work with people who care about what they’re building. We’ll put in the extra effort, sweat the details, and do what it takes to make sure our clients are satisfied with the final product. When you win, we win.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= CONTACT ================= -->
-  <section class="contact" id="contact">
-    <div class="wrap contact-grid">
-      <div class="reveal">
-        <p class="eyebrow">00:08 — Let's Talk</p>
-        <h2>Ready to get more eyes on your business?</h2>
-        <a href="#inquiry" class="btn btn--gold">Start Your Project</a>
-      </div>
-      <ul class="contact-info reveal">
-        <li>
-          <span class="label">Email</span>
-          <a href="mailto:contact@frameandscalemedia.com">contact@frameandscalemedia.com</a>
-        </li>
-        <li>
-          <span class="label">Phone</span>
-          <a href="tel:+16024924807">(602) 492-4807</a>
-        </li>
-        <li>
-          <span class="label">Instagram</span>
-          <a href="https://instagram.com/frameandscalemedia" target="_blank" rel="noopener">@frameandscalemedia</a>
-          <!-- TODO: replace with your real handle -->
-        </li>
-      </ul>
-    </div>
-
-    <div class="wrap">
-      <div class="outro-banner reveal" aria-hidden="true">
-        <video autoplay muted playsinline preload="metadata">
-          <source src="assets/Outro Horizontal Branding.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-  </section>
-
 </main>
-
 <footer>
   <div class="wrap">
     <span>&copy; 2026 Frame and Scale Media. Based in Arizona.</span>
     <span>Real Estate &middot; Other Work &middot; Small Business Video</span>
   </div>
 </footer>
-
 <script>
-  // Mobile nav toggle
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
   navToggle.addEventListener('click', () => {
@@ -528,49 +455,15 @@
     navLinks.classList.remove('open');
     navToggle.setAttribute('aria-expanded', 'false');
   }));
-
-  // Hero audio: browsers may block autoplay with sound. Try sound first; if blocked, fall back to muted and offer one-click audio.
-  const heroVideo = document.querySelector('.hero-video');
-  const heroSoundBtn = document.getElementById('heroSoundBtn');
-  const heroPlayerNote = document.getElementById('heroPlayerNote');
-  if (heroVideo) {
-    heroVideo.muted = false;
-    const startWithSound = heroVideo.play();
-    if (startWithSound && typeof startWithSound.catch === 'function') {
-      startWithSound.catch(() => {
-        heroVideo.muted = true;
-        heroVideo.play().catch(() => {});
-        if (heroSoundBtn) heroSoundBtn.hidden = false;
-        if (heroPlayerNote) heroPlayerNote.textContent = 'Autoplay muted by your browser';
-      });
-    }
-  }
-  if (heroSoundBtn) {
-    heroSoundBtn.addEventListener('click', () => {
-      heroVideo.muted = false;
-      heroVideo.volume = 1;
-      heroVideo.play().catch(() => {});
-      heroSoundBtn.hidden = true;
-      if (heroPlayerNote) heroPlayerNote.textContent = 'Sound & playback controls available';
-    });
-  }
-
-  // Scroll reveal
   const revealEls = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          io.unobserve(entry.target);
-        }
+        if (entry.isIntersecting) { entry.target.classList.add('is-visible'); io.unobserve(entry.target); }
       });
     }, { threshold: 0.15 });
     revealEls.forEach(el => io.observe(el));
-  } else {
-    revealEls.forEach(el => el.classList.add('is-visible'));
-  }
+  } else { revealEls.forEach(el => el.classList.add('is-visible')); }
 </script>
-
 </body>
 </html>
