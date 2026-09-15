@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-326E2TH19P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-326E2TH19P');
+</script>
+
+<title>Page Not Found | Frame and Scale Media</title>
+<meta name="robots" content="noindex">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2312181C'/%3E%3Cg stroke='%23C89B3C' stroke-width='9' fill='none'%3E%3Cpath d='M20 38V20h18'/%3E%3Cpath d='M80 38V20H62'/%3E%3Cpath d='M20 62v18h18'/%3E%3Cpath d='M80 62v18H62'/%3E%3C/g%3E%3Ccircle cx='50' cy='50' r='14' fill='%23C89B3C'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#091b34; --gold:#C89B3C; --gold-bright:#a88d5c; --paper:#F7F4EE;
+    --white:#ffffff; --text-light:#ffffff; --text-muted:#b3b8bf; --max:1120px;
+    --display:'Bebas Neue',sans-serif; --body:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    --mono:'IBM Plex Mono',monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  body{
+    margin:0;font-family:var(--body);color:var(--text-light);background:var(--ink);
+    line-height:1.6;-webkit-font-smoothing:antialiased;
+    display:flex;align-items:center;justify-content:center;padding:24px;
+    position:relative;overflow:hidden;
+  }
+  body::before{
+    content:"";position:absolute;width:900px;height:900px;border-radius:50%;
+    right:-320px;top:-360px;background:radial-gradient(circle,rgba(200,155,60,.16),transparent 68%);
+    pointer-events:none;
+  }
+  .wrap{max-width:560px;text-align:center;position:relative;z-index:1;}
+  .mark{margin:0 auto 28px;width:64px;height:64px;}
+  .code{
+    font-family:var(--display);font-weight:400;letter-spacing:.02em;
+    font-size:clamp(64px,14vw,120px);color:var(--gold);line-height:1;margin:0;
+  }
+  h1{
+    font-family:var(--display);font-weight:400;letter-spacing:.01em;
+    font-size:clamp(28px,5vw,42px);margin:10px 0 16px;line-height:1.05;
+  }
+  p{color:var(--text-muted);font-size:16.5px;max-width:44ch;margin:0 auto 32px;}
+  .actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
+  .btn{
+    font-family:var(--mono);font-size:13px;letter-spacing:.04em;padding:13px 22px;
+    border-radius:2px;text-decoration:none;display:inline-block;border:1px solid transparent;
+    transition:transform .2s ease, background .2s ease, color .2s ease;
+  }
+  .btn--gold{background:var(--gold);color:var(--ink);}
+  .btn--gold:hover{background:var(--gold-bright);transform:translateY(-2px);}
+  .btn--outline{border-color:rgba(255,255,255,.4);color:var(--text-light);}
+  .btn--outline:hover{border-color:var(--gold);color:var(--gold);}
+  @media (max-width:480px){ .actions{flex-direction:column;} .btn{width:100%;text-align:center;} }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <svg class="mark" viewBox="0 0 100 100"><g stroke="#C89B3C" stroke-width="9" fill="none"><path d="M20 38V20h18"/><path d="M80 38V20H62"/><path d="M20 62v18h18"/><path d="M80 62v18H62"/></g><circle cx="50" cy="50" r="14" fill="#C89B3C"/></svg>
+    <p class="code">404</p>
+    <h1>This shot didn't make the final cut.</h1>
+    <p>The page you're looking for doesn't exist, moved, or never made it past the editing room. Let's get you back on track.</p>
+    <div class="actions">
+      <a href="/" class="btn btn--gold">Back to Home</a>
+      <a href="/other-work.html" class="btn btn--outline">See Our Work</a>
+    </div>
+  </div>
+</body>
+</html>

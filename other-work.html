@@ -3,16 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Other Work | Frame and Scale Media</title>
-<meta name="description" content="Frame and Scale Media is an Arizona video production studio specializing in cinematic real estate listing films, plus event coverage, small business advertisements, and small business videography.">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-326E2TH19P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-326E2TH19P');
+</script>
+
+<title>Our Work | Video, Photography &amp; Brand Design | Frame and Scale Media</title>
+<meta name="description" content="See our work: real estate video, automotive content, small business advertisements, event coverage, and brand design from Frame and Scale Media.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Frame and Scale Media | Real Estate Video Production">
-<meta property="og:description" content="Cinematic real estate listing films for Arizona agents — plus event coverage and video for small businesses.">
+<meta property="og:title" content="Our Work | Frame and Scale Media">
+<meta property="og:description" content="Real estate video, automotive content, small business advertisements, and event coverage — see what we make.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://frameandscalemedia.com/other-work.html">
+<meta property="og:image" content="https://frameandscalemedia.com/assets/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Our Work | Frame and Scale Media">
+<meta name="twitter:description" content="Real estate video, automotive content, small business advertisements, and event coverage — see what we make.">
+<meta name="twitter:image" content="https://frameandscalemedia.com/assets/social-preview.png">
 
 <!-- Favicon: simple corner-bracket viewfinder mark, inline so no extra file is needed -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2312181C'/%3E%3Cg stroke='%23C89B3C' stroke-width='9' fill='none'%3E%3Cpath d='M20 38V20h18'/%3E%3Cpath d='M80 38V20H62'/%3E%3Cpath d='M20 62v18h18'/%3E%3Cpath d='M80 62v18H62'/%3E%3C/g%3E%3Ccircle cx='50' cy='50' r='14' fill='%23C89B3C'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,9 +100,12 @@
   /* ---------- nav ---------- */
   header{
     position:sticky;top:0;z-index:50;
+    border-bottom:1px solid rgba(200,155,60,.18);
+  }
+  header::before{
+    content:"";position:absolute;inset:0;z-index:-1;
     background:rgba(18,24,28,.92);
     backdrop-filter:blur(6px);
-    border-bottom:1px solid rgba(200,155,60,.18);
   }
   nav.wrap{display:flex;align-items:center;justify-content:space-between;height:76px;}
   .logo{
@@ -188,14 +210,14 @@
   .inquiry .wrap{position:relative;z-index:1;}
   .inquiry-head{max-width:760px;margin-bottom:46px;}
   .inquiry-head h2{font-size:clamp(34px,5vw,56px);color:var(--text-dark);max-width:15ch;}
-  .inquiry-head p{color:#5F6871;font-size:17px;max-width:58ch;margin:18px 0 0;}
+  .inquiry-head p{color:#565e66;font-size:17px;max-width:58ch;margin:18px 0 0;}
   .inquiry-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:28px;align-items:stretch;}
   .motion-panel{min-height:500px;background:#091b34;border:1px solid rgba(200,155,60,.25);position:relative;overflow:hidden;}
   .motion-panel iframe{width:100%;height:100%;min-height:500px;border:0;display:block;}
   .motion-caption{position:absolute;left:24px;bottom:20px;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.62);pointer-events:none;}
   .inquiry-card{background:var(--white);padding:8px;border:1px solid rgba(200,155,60,.28);box-shadow:0 24px 70px rgba(0,0,0,.25);}
   .inquiry-card > div{width:100%;min-height:500px;}
-  .inquiry-note{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:#68717A;margin-top:14px;}
+  .inquiry-note{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:#586068;margin-top:14px;}
   .contact .form-card{display:none;}
   .outro-banner{margin-top:64px;position:relative;border:1px solid rgba(200,155,60,.2);overflow:hidden;background:#091b34;}
   .outro-banner video{display:block;width:100%;height:auto;aspect-ratio:16/5;object-fit:cover;opacity:.82;}
@@ -348,7 +370,7 @@
   .other-grid-section{background:var(--stone);padding:92px 0 110px;}
   .other-grid-head{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:42px;}
   .other-grid-head h2{font-size:clamp(32px,4.5vw,52px);max-width:12ch;}
-  .other-grid-head > p{max-width:44ch;color:#5f6871;margin:0;}
+  .other-grid-head > p{max-width:44ch;color:#565e66;margin:0;}
   .other-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
   .other-card{min-height:430px;background:var(--paper);border:1px solid rgba(9,27,52,.12);padding:30px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;}
   .other-card::after{content:"";position:absolute;width:220px;height:220px;border-radius:50%;right:-90px;bottom:-100px;background:rgba(200,155,60,.12);}
@@ -364,6 +386,19 @@
   .other-cta p{max-width:56ch;margin:0 auto 30px;color:var(--text-muted);}
   @media(max-width:860px){.other-grid{grid-template-columns:1fr;}.other-grid-head{display:block}.other-grid-head>p{margin-top:16px}.other-card{min-height:340px;}}
   @media(max-width:600px){.other-hero{padding:76px 0 70px}.other-grid-section{padding:70px 0 78px}.other-card{min-height:300px;padding:25px}.other-cta{padding:76px 0}}
+
+  /* ---------- cookie consent banner ---------- */
+  .cookie-banner{position:fixed;left:0;right:0;bottom:0;z-index:200;background:rgba(9,27,52,.97);border-top:1px solid rgba(200,155,60,.35);backdrop-filter:blur(6px);padding:16px 20px;transform:translateY(110%);transition:transform .4s ease;}
+  .cookie-banner.is-visible{transform:translateY(0);}
+  .cookie-banner-inner{max-width:var(--max);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+  .cookie-banner p{margin:0;color:#fff;font-size:13.5px;max-width:70ch;}
+  .cookie-banner a{color:var(--gold);text-decoration:underline;}
+  .cookie-banner button{font-family:var(--mono);font-size:12.5px;letter-spacing:.05em;padding:10px 18px;background:var(--gold);color:var(--ink);border:0;border-radius:2px;cursor:pointer;white-space:nowrap;}
+  .cookie-banner button:hover{background:var(--gold-bright);}
+  @media (max-width:600px){
+    .cookie-banner-inner{flex-direction:column;align-items:stretch;text-align:left;}
+    .cookie-banner button{width:100%;}
+  }
 </style>
 </head>
 <body>
@@ -374,11 +409,11 @@
       FRAME &amp; SCALE
     </a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html#real-estate-work">Real Estate</a></li>
-      <li><a href="other-work.html" aria-current="page">Other Work</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="other-work.html" aria-current="page">Work</a></li>
       <li><a href="index.html#about">About</a></li>
       <li><a href="index.html#contact">Contact</a></li>
-      <li><a href="index.html#inquiry" class="btn btn--gold">Start a Project</a></li>
+      <li><a href="index.html#inquiry" class="btn btn--gold">Start Your Project</a></li>
     </ul>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
   </nav>
@@ -386,9 +421,9 @@
 <main>
   <section class="other-hero">
     <div class="wrap">
-      <p class="eyebrow">Other Work</p>
-      <h1>More than real estate.</h1>
-      <p>Real estate is where we spend a lot of our time, but it isn’t the limit of what we can do. We bring the same energy, creativity, and attention to detail to brands, businesses, events, and the projects that don’t fit neatly into one category.</p>
+      <p class="eyebrow">Our Work</p>
+      <h1>Video, photography, and brand work that gets results.</h1>
+      <p>From real estate listings to restaurant menus to a brand-new logo — we bring the same energy, creativity, and attention to detail to every project, no matter what it is.</p>
     </div>
   </section>
 
@@ -434,16 +469,23 @@
       <p class="eyebrow">05 — Have Something Different?</p>
       <h2>Tell us what you’re trying to make.</h2>
       <p>We’re always interested in a project with a good story, a clear goal, and a client who cares about getting it right.</p>
-      <a href="index.html#inquiry" class="btn btn--gold">Start a Project</a>
+      <a href="index.html#inquiry" class="btn btn--gold">Start Your Project</a>
     </div>
   </section>
 </main>
 <footer>
   <div class="wrap">
     <span>&copy; 2026 Frame and Scale Media. Based in Arizona.</span>
-    <span>Real Estate &middot; Other Work &middot; Small Business Video</span>
+    <span><a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Use</a></span>
   </div>
 </footer>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie notice">
+  <div class="cookie-banner-inner">
+    <p>We use a small number of cookies from embedded features on this site (our Instagram feed and inquiry form), plus Google Analytics to understand site traffic. No advertising cookies. <a href="privacy-policy.html">Learn more</a></p>
+    <button id="cookieBannerAccept" type="button">Got it</button>
+  </div>
+</div>
 <script>
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
@@ -464,6 +506,22 @@
     }, { threshold: 0.15 });
     revealEls.forEach(el => io.observe(el));
   } else { revealEls.forEach(el => el.classList.add('is-visible')); }
+
+  // Cookie consent banner
+  (function(){
+    var KEY = 'fsm_cookie_ack_v1';
+    var banner = document.getElementById('cookieBanner');
+    var acceptBtn = document.getElementById('cookieBannerAccept');
+    if (!banner || !acceptBtn) return;
+    var alreadyAcked = false;
+    try { alreadyAcked = !!localStorage.getItem(KEY); } catch (e) {}
+    if (alreadyAcked) return;
+    requestAnimationFrame(function(){ banner.classList.add('is-visible'); });
+    acceptBtn.addEventListener('click', function(){
+      try { localStorage.setItem(KEY, '1'); } catch (e) {}
+      banner.classList.remove('is-visible');
+    });
+  })();
 </script>
 </body>
 </html>

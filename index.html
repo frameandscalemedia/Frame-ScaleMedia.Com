@@ -3,16 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Frame and Scale Media | Real Estate Video Production in Arizona</title>
-<meta name="description" content="Frame and Scale Media is an Arizona video production studio specializing in cinematic real estate listing films, plus event coverage, small business advertisements, and small business videography.">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-326E2TH19P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-326E2TH19P');
+</script>
+
+<title>Frame and Scale Media | Small Business Video, Photography &amp; Brand Design</title>
+<meta name="description" content="Frame and Scale Media helps Arizona small businesses grow with video production, photography, logo design, and websites — real estate, automotive, events, headshots, and more.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Frame and Scale Media | Real Estate Video Production">
-<meta property="og:description" content="Cinematic real estate listing films for Arizona agents — plus event coverage and video for small businesses.">
+<meta property="og:title" content="Frame and Scale Media | Video, Photography &amp; Brand Design">
+<meta property="og:description" content="Video production, photography, logo design, and websites for small businesses ready to grow.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://frameandscalemedia.com/">
+<meta property="og:image" content="https://frameandscalemedia.com/assets/social-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Frame and Scale Media | Video, Photography &amp; Brand Design">
+<meta name="twitter:description" content="Video production, photography, logo design, and websites for small businesses ready to grow.">
+<meta name="twitter:image" content="https://frameandscalemedia.com/assets/social-preview.png">
 
 <!-- Favicon: simple corner-bracket viewfinder mark, inline so no extra file is needed -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2312181C'/%3E%3Cg stroke='%23C89B3C' stroke-width='9' fill='none'%3E%3Cpath d='M20 38V20h18'/%3E%3Cpath d='M80 38V20H62'/%3E%3Cpath d='M20 62v18h18'/%3E%3Cpath d='M80 62v18H62'/%3E%3C/g%3E%3Ccircle cx='50' cy='50' r='14' fill='%23C89B3C'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,9 +102,15 @@
   /* ---------- nav ---------- */
   header{
     position:sticky;top:0;z-index:50;
+    border-bottom:1px solid rgba(200,155,60,.18);
+  }
+  /* Blur lives on a pseudo-element, not on header itself — backdrop-filter on header
+     would make header the containing block for its position:fixed descendants
+     (the mobile nav-links panel), breaking its full-viewport sizing/background. */
+  header::before{
+    content:"";position:absolute;inset:0;z-index:-1;
     background:rgba(18,24,28,.92);
     backdrop-filter:blur(6px);
-    border-bottom:1px solid rgba(200,155,60,.18);
   }
   nav.wrap{display:flex;align-items:center;justify-content:space-between;height:76px;}
   .logo{
@@ -153,6 +180,9 @@
   }
   .hero-actions{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;padding:30px 28px 0;position:relative;z-index:2;}
   .hero-actions .btn{min-width:190px;text-align:center;}
+  .hero-copy{text-align:center;padding:34px 28px 0;max-width:800px;}
+  .hero-copy h1{font-size:clamp(30px,5vw,50px);line-height:1.05;max-width:18ch;margin:0 auto;}
+  .hero-copy p{font-size:17px;color:var(--text-muted);max-width:56ch;margin:16px auto 0;}
 
   /* ---------- section basics ---------- */
   section{padding:100px 0;}
@@ -188,14 +218,14 @@
   .inquiry .wrap{position:relative;z-index:1;}
   .inquiry-head{max-width:760px;margin-bottom:46px;}
   .inquiry-head h2{font-size:clamp(34px,5vw,56px);color:var(--text-dark);max-width:15ch;}
-  .inquiry-head p{color:#5F6871;font-size:17px;max-width:58ch;margin:18px 0 0;}
+  .inquiry-head p{color:#565e66;font-size:17px;max-width:58ch;margin:18px 0 0;}
   .inquiry-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:28px;align-items:stretch;}
   .motion-panel{min-height:500px;background:#091b34;border:1px solid rgba(200,155,60,.25);position:relative;overflow:hidden;}
   .motion-panel iframe{width:100%;height:100%;min-height:500px;border:0;display:block;}
   .motion-caption{position:absolute;left:24px;bottom:20px;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.62);pointer-events:none;}
   .inquiry-card{background:var(--white);padding:8px;border:1px solid rgba(200,155,60,.28);box-shadow:0 24px 70px rgba(0,0,0,.25);}
   .inquiry-card > div{width:100%;min-height:500px;}
-  .inquiry-note{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:#68717A;margin-top:14px;}
+  .inquiry-note{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:#586068;margin-top:14px;}
   .contact .form-card{display:none;}
   .outro-banner{margin-top:64px;position:relative;border:1px solid rgba(200,155,60,.2);overflow:hidden;background:#091b34;}
   .outro-banner video{display:block;width:100%;height:auto;aspect-ratio:16/5;object-fit:cover;opacity:.82;}
@@ -212,8 +242,37 @@
   .showcase-video video{display:block;width:100%;height:100%;object-fit:cover;object-position:center;opacity:.98;}
   .showcase-photos{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
   .showcase-photo:first-child{grid-column:1 / -1;}
-  .showcase-photo img{display:block;width:100%;height:100%;min-height:280px;object-fit:cover;transition:transform .6s ease;}
+  .showcase-photo img{display:block;width:100%;height:100%;min-height:280px;object-fit:cover;transition:transform .6s ease;cursor:zoom-in;}
   .showcase-photo:hover img{transform:scale(1.025);}
+  .showcase-photo::after{
+    content:"⤢";position:absolute;top:14px;right:14px;z-index:2;
+    width:34px;height:34px;border-radius:50%;
+    background:rgba(9,27,52,.72);color:#fff;font-size:16px;
+    display:flex;align-items:center;justify-content:center;
+    opacity:0;transition:opacity .2s ease;pointer-events:none;
+  }
+  .showcase-photo:hover::after{opacity:1;}
+
+  /* ---------- image lightbox ---------- */
+  .lightbox{
+    position:fixed;inset:0;z-index:300;background:rgba(6,12,22,.94);
+    display:flex;align-items:center;justify-content:center;padding:5vh 5vw;
+    opacity:0;visibility:hidden;transition:opacity .25s ease;
+  }
+  .lightbox.is-open{opacity:1;visibility:visible;}
+  .lightbox img{max-width:100%;max-height:90vh;width:auto;height:auto;box-shadow:0 30px 90px rgba(0,0,0,.5);}
+  .lightbox-close{
+    position:absolute;top:22px;right:22px;width:44px;height:44px;border-radius:50%;
+    background:rgba(255,255,255,.08);border:1px solid rgba(200,155,60,.4);color:#fff;
+    font-size:22px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;
+    transition:background .2s ease, border-color .2s ease;
+  }
+  .lightbox-close:hover{background:var(--gold);color:var(--ink);border-color:var(--gold);}
+  .lightbox-hint{position:absolute;bottom:22px;left:0;right:0;text-align:center;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.55);}
+  @media (max-width:600px){
+    .showcase-photo::after{display:none;}
+    .lightbox-close{top:14px;right:14px;width:40px;height:40px;}
+  }
   .showcase-label{position:absolute;left:16px;bottom:16px;padding:7px 10px;background:rgba(9,27,52,.78);color:#fff;font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;border:1px solid rgba(200,155,60,.45);}
   .showcase-note{margin-top:18px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:#68717a;text-transform:uppercase;}
 
@@ -320,6 +379,19 @@
     .reveal{opacity:1;transform:none;transition:none;}
   }
 
+  /* ---------- cookie consent banner ---------- */
+  .cookie-banner{position:fixed;left:0;right:0;bottom:0;z-index:200;background:rgba(9,27,52,.97);border-top:1px solid rgba(200,155,60,.35);backdrop-filter:blur(6px);padding:16px 20px;transform:translateY(110%);transition:transform .4s ease;}
+  .cookie-banner.is-visible{transform:translateY(0);}
+  .cookie-banner-inner{max-width:var(--max);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+  .cookie-banner p{margin:0;color:#fff;font-size:13.5px;max-width:70ch;}
+  .cookie-banner a{color:var(--gold);text-decoration:underline;}
+  .cookie-banner button{font-family:var(--mono);font-size:12.5px;letter-spacing:.05em;padding:10px 18px;background:var(--gold);color:var(--ink);border:0;border-radius:2px;cursor:pointer;white-space:nowrap;}
+  .cookie-banner button:hover{background:var(--gold-bright);}
+  @media (max-width:600px){
+    .cookie-banner-inner{flex-direction:column;align-items:stretch;text-align:left;}
+    .cookie-banner button{width:100%;}
+  }
+
   /* ---------- responsive ---------- */
   @media (max-width:860px){
     .hero .wrap{grid-template-columns:1fr;}
@@ -348,11 +420,11 @@
       FRAME &amp; SCALE
     </a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#real-estate-work">Real Estate</a></li>
-      <li><a href="other-work.html">Other Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="other-work.html">Work</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="#inquiry" class="btn btn--gold">Start a Project</a></li>
+      <li><a href="#inquiry" class="btn btn--gold">Start Your Project</a></li>
     </ul>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
   </nav>
@@ -369,9 +441,13 @@
       </video>
       <div class="hero-player-note" id="heroPlayerNote">Sound &amp; playback controls available</div><button class="hero-sound-btn" id="heroSoundBtn" type="button" hidden>Enable sound</button>
     </div>
+    <div class="wrap hero-copy">
+      <h1>We Help Small Businesses Look as Good as They Actually Are.</h1>
+      <p>Video production, photography, logo design, and websites — built to get you booked, called, and hired.</p>
+    </div>
     <div class="hero-actions">
-      <a href="#inquiry" class="btn btn--gold">Book a Listing Shoot</a>
-      <a href="other-work.html" class="btn btn--outline">See Everything We Do</a>
+      <a href="#inquiry" class="btn btn--gold">Start Your Project</a>
+      <a href="other-work.html" class="btn btn--outline">See Our Work</a>
     </div>
   </section>
 
@@ -380,8 +456,8 @@
     <div class="wrap">
       <div class="inquiry-head reveal">
         <p class="eyebrow">00:01 — Start Here</p>
-        <h2>Let's build something worth booking.</h2>
-        <p>Tell us a little about the property, business, event, or campaign. We'll take it from there and follow up with the right next step.</p>
+        <h2>Let's build something worth showing off.</h2>
+        <p>Tell us a little about your business and what you're trying to create — video, photography, brand design, or a website. We'll take it from there and follow up with the right next step.</p>
       </div>
       <div class="inquiry-grid">
         <div class="motion-panel reveal">
@@ -398,11 +474,47 @@
   </section>
   <script src="https://server.fillout.com/embed/v1/"></script>
 
+  <!-- ================= SERVICES ================= -->
+  <section class="section--ink" id="services">
+    <div class="wrap">
+      <div class="services-head reveal">
+        <p class="eyebrow">00:02 — What We Do</p>
+        <h2>Everything your brand needs to get noticed.</h2>
+      </div>
+      <div class="service-grid">
+        <div class="service-card reveal">
+          <h3>Brand &amp; Logo Design</h3>
+          <p>Startup or refresh — a logo and visual identity that actually looks like you, not a template.</p>
+        </div>
+        <div class="service-card reveal">
+          <h3>Website Development</h3>
+          <p>A site that loads fast, looks sharp on every device, and actually gets people to reach out.</p>
+        </div>
+        <div class="service-card reveal">
+          <h3>Video Production</h3>
+          <p>Real estate listings, automotive content, event coverage, social ads — cinematic video built for whatever you're trying to sell.</p>
+        </div>
+        <div class="service-card reveal">
+          <h3>Professional Headshots</h3>
+          <p>Team photos and personal branding shots that make your business look as legitimate as it is.</p>
+        </div>
+        <div class="service-card reveal">
+          <h3>Before &amp; After Photography</h3>
+          <p>Renovations, transformations, results — documented in a way that actually sells the change.</p>
+        </div>
+        <div class="service-card reveal">
+          <h3>Restaurant &amp; Menu Photography</h3>
+          <p>Food that looks like it tastes as good as it does — shot for menus, delivery apps, and social.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ================= INSTAGRAM ================= -->
   <section class="section--stone" id="instagram">
     <div class="wrap">
       <div class="ig-head reveal">
-        <p class="eyebrow">00:02 — Follow Along</p>
+        <p class="eyebrow">00:03 — Follow Along</p>
         <h2>Straight from the feed.</h2>
       </div>
       <div class="reveal">
@@ -429,7 +541,7 @@
         <div class="showcase-video viewfinder reveal">
           <span class="corner corner--tl"></span><span class="corner corner--tr"></span>
           <span class="corner corner--bl"></span><span class="corner corner--br"></span>
-          <video autoplay muted loop playsinline preload="metadata" aria-label="Vertical real estate video showcase">
+          <video class="lazy-autoplay" muted loop playsinline preload="metadata" aria-label="Vertical real estate video showcase">
             <source src="assets/Phase 3 Linda.mp4" type="video/mp4">
           </video>
           <span class="showcase-label">Motion / Vertical</span>
@@ -455,7 +567,7 @@
   <!-- ================= STATEMENT ================= -->
   <section class="statement">
     <div class="wrap">
-      <p class="reveal">We don't make videos for the sake of pretty footage. We make videos that get you booked, called, and hired.</p>
+      <p class="reveal">We don't make work for the sake of looking pretty. We make work that gets you booked, called, and hired.</p>
       <div class="rule"></div>
     </div>
   </section>
@@ -468,7 +580,7 @@
         <h2>Driven to do work our clients are proud to put their name on.</h2>
       </div>
       <div class="reveal">
-        <p>Frame and Scale Media is an Arizona-based video production and advertising studio founded by Brennan and Caden. We’re motivated, talented, and genuinely excited to work with people who care about what they’re building. We’ll put in the extra effort, sweat the details, and do what it takes to make sure our clients are satisfied with the final product. When you win, we win.</p>
+        <p>Frame and Scale Media is an Arizona-based creative team founded by Brennan and Caden. We started in video production and grew into full brand support — logo design, websites, photography, and video — because small businesses shouldn't need five different vendors to look put-together. We're motivated, talented, and genuinely excited to work with people who care about what they're building. We'll put in the extra effort, sweat the details, and do what it takes to make sure our clients are satisfied with the final product. When you win, we win.</p>
       </div>
     </div>
   </section>
@@ -500,7 +612,7 @@
 
     <div class="wrap">
       <div class="outro-banner reveal" aria-hidden="true">
-        <video autoplay muted playsinline preload="metadata">
+        <video class="lazy-autoplay" muted playsinline preload="metadata">
           <source src="assets/Outro Horizontal Branding.mp4" type="video/mp4">
         </video>
       </div>
@@ -512,9 +624,22 @@
 <footer>
   <div class="wrap">
     <span>&copy; 2026 Frame and Scale Media. Based in Arizona.</span>
-    <span>Real Estate &middot; Other Work &middot; Small Business Video</span>
+    <span><a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Use</a></span>
   </div>
 </footer>
+
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged image view" hidden>
+  <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close enlarged image">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+  <p class="lightbox-hint">Press Esc or click anywhere to close</p>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie notice">
+  <div class="cookie-banner-inner">
+    <p>We use a small number of cookies from embedded features on this site (our Instagram feed and inquiry form), plus Google Analytics to understand site traffic. No advertising cookies. <a href="privacy-policy.html">Learn more</a></p>
+    <button id="cookieBannerAccept" type="button">Got it</button>
+  </div>
+</div>
 
 <script>
   // Mobile nav toggle
@@ -570,6 +695,78 @@
   } else {
     revealEls.forEach(el => el.classList.add('is-visible'));
   }
+
+  // Image lightbox — click any showcase photo to view it larger; Esc, the X, or
+  // clicking the backdrop closes it back to the page.
+  (function(){
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const closeBtn = document.getElementById('lightboxClose');
+    const photos = document.querySelectorAll('.showcase-photo img');
+    let lastFocused = null;
+
+    function openLightbox(src, alt) {
+      lastFocused = document.activeElement;
+      lightboxImg.src = src;
+      lightboxImg.alt = alt || '';
+      lightbox.hidden = false;
+      requestAnimationFrame(() => lightbox.classList.add('is-open'));
+      document.body.style.overflow = 'hidden';
+      closeBtn.focus();
+    }
+    function closeLightbox() {
+      lightbox.classList.remove('is-open');
+      document.body.style.overflow = '';
+      setTimeout(() => { lightbox.hidden = true; lightboxImg.src = ''; }, 250);
+      if (lastFocused) lastFocused.focus();
+    }
+
+    photos.forEach(img => {
+      img.addEventListener('click', () => openLightbox(img.currentSrc || img.src, img.alt));
+    });
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !lightbox.hidden) closeLightbox();
+    });
+  })();
+
+  // Defer loading/playing below-the-fold video until it's actually scrolled into view —
+  // these were previously set to autoplay immediately on page load despite being far
+  // below the fold, downloading tens of MB before a visitor ever saw them.
+  const lazyVideos = document.querySelectorAll('video.lazy-autoplay');
+  if ('IntersectionObserver' in window && lazyVideos.length) {
+    const videoIO = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.play().catch(() => {});
+        } else {
+          entry.target.pause();
+        }
+      });
+    }, { threshold: 0.25 });
+    lazyVideos.forEach(v => videoIO.observe(v));
+  } else {
+    lazyVideos.forEach(v => v.play().catch(() => {}));
+  }
+
+  // Cookie consent banner
+  (function(){
+    var KEY = 'fsm_cookie_ack_v1';
+    var banner = document.getElementById('cookieBanner');
+    var acceptBtn = document.getElementById('cookieBannerAccept');
+    if (!banner || !acceptBtn) return;
+    var alreadyAcked = false;
+    try { alreadyAcked = !!localStorage.getItem(KEY); } catch (e) {}
+    if (alreadyAcked) return;
+    requestAnimationFrame(function(){ banner.classList.add('is-visible'); });
+    acceptBtn.addEventListener('click', function(){
+      try { localStorage.setItem(KEY, '1'); } catch (e) {}
+      banner.classList.remove('is-visible');
+    });
+  })();
 </script>
 
 </body>
