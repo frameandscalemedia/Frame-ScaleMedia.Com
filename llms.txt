@@ -1,26 +1,75 @@
 # Frame and Scale Media
 
-> Mobile video production, social media content and photography team for small businesses in the Phoenix, Arizona area. We travel to your location or help find locations. Available 7am-7pm, Monday through Sunday. Phone (602) 492-4807, contact@frameandscalemedia.com.
+> Mobile video production, social media content and photography team for small businesses in the Phoenix, Arizona area. We travel to your location or help find locations. Available 7am to 7pm, Monday through Sunday. Phone 602.492.4807, contact@frameandscalemedia.com, Instagram @frameandscalemedia.
 
-Serving Phoenix, Peoria, Scottsdale, Surprise, Mesa, Chandler and surrounding Arizona cities.
+Serving Phoenix, Peoria, Scottsdale, Surprise, Mesa, Chandler and surrounding Arizona cities. Founded by Brennan and Caden. Services include video production, photography, logo and brand design, and websites.
+
+The home page is a portfolio organized by content style: real estate, automotive, service businesses, events, talking head, advertising and social reels. Each style has its own page with example videos and pricing.
 
 ## Pricing summary
-- Reels packages: 4 reels $1,500/month, 8 reels $2,750/month, 12 reels $4,000/month
-- Social media management and posting: +$1,000/month depending on bundle
-- Paid ad creative: $1,500 for 3 ad creatives; Meta ad management matched 100% to ad spend ($500 ad spend = $1,000 total)
-- Real estate: $1,000 per listing (3 social videos plus full camera and drone photography)
+- Social reels packages: 4 reels $1,500 per month, 8 reels $2,750 per month, 12 reels $4,000 per month
+- Social media management and posting: an additional $1,000 per month, depending on bundle
+- Paid ad creative: $1,500 for 3 ad creatives; optional Meta ad management fee matches ad spend 100% ($500 of ad spend = $1,000 total)
+- Real estate: $1,000 per listing (3 social media videos plus full camera and drone photography)
+- Automotive video: $500 to $1,500, priced by vision and production schedule
+- Service business video (remodelers, contractors, cleaners, trades): $500 to $1,500, priced by vision and production schedule
+- Event coverage: $1,000 to $3,000, by event size, amount of video and deliverables
 - Testimonial and case study video: $500
-- Brand and promo video: $500-$1,500
-- Headshots and internal company photo/video: $500-$1,500
+- Brand and promo video: $500 to $1,500
 - Hiring and recruiting video: $500
-- Website and landing page video: $500-$1,000
+- Website and landing page video: $500 to $1,000
+- Headshots and internal company photo or video: $500 to $1,500
 - Full shoot day photography: $500
-- Event coverage: $1,000-$3,000
 
 ## Pages
-- [Home](https://frameandscalemedia.com/): overview, services, pricing and FAQ
-- [Social media reels packages](https://frameandscalemedia.com/reels-packages.html): monthly reels pricing
-- [Facebook and Instagram ad creative](https://frameandscalemedia.com/paid-ad-creative.html): ad creative and Meta management pricing
-- [Event coverage](https://frameandscalemedia.com/event-coverage.html): event video and photo pricing
-- [Small business video and photo packages](https://frameandscalemedia.com/small-business-video-packages.html): all one-time packages
-- [Our work](https://frameandscalemedia.com/other-work.html): portfolio
+- [Portfolio (home)](https://frameandscalemedia.com/): portfolio by content style, with a preview for each style and links to each style page
+- [Real estate](https://frameandscalemedia.com/realestate.html): listing video, drone and photography examples and pricing
+- [Automotive](https://frameandscalemedia.com/automotive.html): car meet, motorcycle, track and shop video examples and pricing
+- [Service businesses](https://frameandscalemedia.com/servicebusinesses.html): video for remodelers, contractors, cleaners and trades, with pricing
+- [Events](https://frameandscalemedia.com/events.html): event video and photo examples and pricing
+- [Talking head](https://frameandscalemedia.com/talkinghead.html): testimonial, founder, interview and hiring video examples and pricing
+- [Advertising](https://frameandscalemedia.com/advertising.html): Facebook and Instagram ad creative examples and Meta management pricing
+- [Social reels](https://frameandscalemedia.com/reels.html): monthly reels package examples and pricing
+- [About](https://frameandscalemedia.com/about.html): brand reel, services, all packages and pricing, FAQ and inquiry form
+
+## Portfolio videos
+Some videos appear in more than one style.
+
+### Real estate ([page](https://frameandscalemedia.com/realestate.html))
+- [Alicia Colburn: Listing walkthrough](https://frameandscalemedia.com/assets/portfolio/alicia_walkthrough.mp4): A drone opener over a pool home, then a room by room walkthrough of the office, kitchen, dining room, patio, bedroom and bath, ending with agent Alicia Colburn on camera.
+- [Linda Duba: New build homes](https://frameandscalemedia.com/assets/portfolio/linda_phase1.mp4): New build homes starting at $399,900, shown through bright living spaces, the kitchen, the covered patio and the primary bedroom for agent Linda Duba.
+- [Linda Duba: Agent walkthrough](https://frameandscalemedia.com/assets/portfolio/linda_phase2.mp4): Agent Linda Duba walks viewers through the community and a new build home on camera, with captions for silent viewing.
+- [Linda Duba: Listing reel](https://frameandscalemedia.com/assets/portfolio/linda_phase3.mp4): A fast, music driven listing reel with bold on screen text over each room of a new build home.
+- [Speed tour](https://frameandscalemedia.com/assets/portfolio/speed_tour.mp4): A quick paced tour that follows the agent room to room through a two story home.
+
+### Automotive ([page](https://frameandscalemedia.com/automotive.html))
+- [RX7: Car meet](https://frameandscalemedia.com/assets/portfolio/will_rx7.mp4): A blue Mazda RX7 at a downtown car meet, from the crowd to close details of the paint, wheels and engine bay.
+- [Retro: Car meet](https://frameandscalemedia.com/assets/portfolio/retro.mp4): A retro styled edit of a late night car meet at a gas station, cut with a vintage camera look.
+- [Night ride: Motorcycle](https://frameandscalemedia.com/assets/portfolio/bike_cody.mp4): A night shoot of a teal sport motorcycle and its rider, lit by the headlight and gas station lights.
+- [Rancho Bella: The shop](https://frameandscalemedia.com/assets/portfolio/shop_welcome.mp4): A tour of the Rancho Bella shop: welding, metal fabrication, suspension work on a Mustang and a SEMA build, with captions.
+- [Track day: Recap](https://frameandscalemedia.com/assets/portfolio/track_day_recap.mp4): A quick recap of a night at the drag strip with burnouts, launches and the cars lined up in the staging lanes.
+- [Rancho Bella: Track build](https://frameandscalemedia.com/assets/portfolio/jacks_track.mp4): A black classic muscle car at a night car meet, shot from the drone and up close, closing on the Rancho Bella logo.
+- [Track night: Behind the scenes](https://frameandscalemedia.com/assets/portfolio/track_p1.mp4): Behind the scenes at a night drag race with the Rancho Bella crew, the driver suiting up and the car on the track.
+- [Rancho Bella: Shop story](https://frameandscalemedia.com/assets/portfolio/flame_thrower.mp4): A Rancho Bella shop story told on camera around a custom classic car in the yard.
+
+### Service businesses ([page](https://frameandscalemedia.com/servicebusinesses.html))
+- [West Valley Property Works: Remodel teaser](https://frameandscalemedia.com/assets/portfolio/westvalley_teaser.mp4): West Valley Property Works on an interior remodel, with the crew on site explaining the work.
+- [West Valley Property Works: Family business](https://frameandscalemedia.com/assets/portfolio/westvalley_family.mp4): The West Valley Property Works team explains what makes them different: a family business that does solid, honest work, with captions.
+
+### Events ([page](https://frameandscalemedia.com/events.html))
+- [Track day: Recap](https://frameandscalemedia.com/assets/portfolio/track_day_recap.mp4): A quick recap of a night at the drag strip with burnouts, launches and the cars lined up in the staging lanes.
+- [Track night: Behind the scenes](https://frameandscalemedia.com/assets/portfolio/track_p1.mp4): Behind the scenes at a night drag race with the Rancho Bella crew, the driver suiting up and the car on the track.
+- [Rancho Bella: Track build](https://frameandscalemedia.com/assets/portfolio/jacks_track.mp4): A black classic muscle car at a night car meet, shot from the drone and up close, closing on the Rancho Bella logo.
+
+### Talking head ([page](https://frameandscalemedia.com/talkinghead.html))
+- [Rancho Bella: Why did you start this](https://frameandscalemedia.com/assets/portfolio/rancho_why_start.mp4): The founder of Rancho Bella Behavioral Health explains on camera why he started the program, with bold captions and footage from the shop.
+- [Rancho Bella: Shop story](https://frameandscalemedia.com/assets/portfolio/flame_thrower.mp4): A Rancho Bella shop story told on camera around a custom classic car in the yard.
+- [Rancho Bella: Ranch vlog](https://frameandscalemedia.com/assets/portfolio/ranch_vlog.mp4): A day at the Rancho Bella ranch in vlog form: the host on camera, a market tent, hay, horses and people talking about the program.
+
+### Advertising ([page](https://frameandscalemedia.com/advertising.html))
+- [Rancho Bella: Don't settle](https://frameandscalemedia.com/assets/portfolio/rancho_dont_settle.mp4): A Rancho Bella ad that moves from the shop to the ranch and the horses, built around the line Don't Settle for Basic Treatment and ending on the logo.
+- [Rancho Bella: Welcome to the ranch](https://frameandscalemedia.com/assets/portfolio/ranch_welcome.mp4): A welcome to the Rancho Bella ranch with drone shots, horses, equine therapy and UTVs, with captions.
+
+### Social reels ([page](https://frameandscalemedia.com/reels.html))
+- [Rancho Bella: Way too far to quit](https://frameandscalemedia.com/assets/portfolio/way_too_far.mp4): A sound designed reel of welding and grinding in the Rancho Bella shop.
+- [Rancho Bella: Ranch vlog](https://frameandscalemedia.com/assets/portfolio/ranch_vlog.mp4): A day at the Rancho Bella ranch in vlog form: the host on camera, a market tent, hay, horses and people talking about the program.
