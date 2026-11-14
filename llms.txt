@@ -9,7 +9,7 @@ The home page is a portfolio organized by content style: real estate, automotive
 ## Pricing summary
 - Social reels packages: 4 reels $1,500 per month, 8 reels $2,750 per month, 12 reels $4,000 per month
 - Social media management and posting: an additional $1,000 per month, depending on bundle
-- Paid ad creative: $1,500 for 3 ad creatives; optional Meta ad management fee matches ad spend 100% ($500 of ad spend = $1,000 total)
+- Paid ad creative: $1,500 for 3 ad creatives, delivered ready for Meta Ads Manager (vertical 9:16, under 90 seconds, captioned); optional Meta ad management fee matches ad spend 100% ($500 of ad spend = $1,000 total)
 - Real estate: $1,000 per listing (3 social media videos plus full camera and drone photography)
 - Automotive video: $500 to $1,500, priced by vision and production schedule
 - Service business video (remodelers, contractors, cleaners, trades): $500 to $1,500, priced by vision and production schedule
@@ -48,6 +48,7 @@ Some videos appear in more than one style.
 - [Night ride: Motorcycle](https://frameandscalemedia.com/assets/portfolio/bike_cody.mp4): A night shoot of a teal sport motorcycle and its rider, lit by the headlight and gas station lights.
 - [Rancho Bella: The shop](https://frameandscalemedia.com/assets/portfolio/shop_welcome.mp4): A tour of the Rancho Bella shop: welding, metal fabrication, suspension work on a Mustang and a SEMA build, with captions.
 - [Track day: Recap](https://frameandscalemedia.com/assets/portfolio/track_day_recap.mp4): A quick recap of a night at the drag strip with burnouts, launches and the cars lined up in the staging lanes.
+- [Rancho Bella: The crack](https://frameandscalemedia.com/assets/portfolio/the_crack.mp4): A reality style reel from the Rancho Bella shop as the crew wrestles the seat out of a Polaris UTV to reach the battery, with bold captions.
 - [Rancho Bella: Track build](https://frameandscalemedia.com/assets/portfolio/jacks_track.mp4): A black classic muscle car at a night car meet, shot from the drone and up close, closing on the Rancho Bella logo.
 - [Track night: Behind the scenes](https://frameandscalemedia.com/assets/portfolio/track_p1.mp4): Behind the scenes at a night drag race with the Rancho Bella crew, the driver suiting up and the car on the track.
 - [Rancho Bella: Shop story](https://frameandscalemedia.com/assets/portfolio/flame_thrower.mp4): A Rancho Bella shop story told on camera around a custom classic car in the yard.
@@ -68,20 +69,23 @@ Some videos appear in more than one style.
 
 ### Talking head ([page](https://frameandscalemedia.com/talkinghead.html))
 - [Rancho Bella: Why did you start this](https://frameandscalemedia.com/assets/portfolio/rancho_why_start.mp4): The founder of Rancho Bella Behavioral Health explains on camera why he started the program, with bold captions and footage from the shop.
+- [Frame and Scale Media: Small business ad](https://frameandscalemedia.com/assets/portfolio/small_business_ad.mp4): Our own Meta ad for Frame and Scale Media: a website, logo, advertising and before and after content, all handled in one place for small businesses across the Valley, ending on a DM us call to action.
 - [West Valley Property Works: Family business](https://frameandscalemedia.com/assets/portfolio/westvalley_family.mp4): The West Valley Property Works team explains what makes them different: a family business that does solid, honest work, with captions.
 - [Linda Duba: Agent walkthrough](https://frameandscalemedia.com/assets/portfolio/linda_phase2.mp4): Agent Linda Duba walks viewers through the community and a new build home on camera, with captions for silent viewing.
 - [Rancho Bella: Shop story](https://frameandscalemedia.com/assets/portfolio/flame_thrower.mp4): A Rancho Bella shop story told on camera around a custom classic car in the yard.
 - [Rancho Bella: Ranch vlog](https://frameandscalemedia.com/assets/portfolio/ranch_vlog.mp4): A day at the Rancho Bella ranch in vlog form: the host on camera, a market tent, hay, horses and people talking about the program.
 
-### Advertising ([page](https://frameandscalemedia.com/advertising.html))
+### Advertising (Meta Ads Manager ready) ([page](https://frameandscalemedia.com/advertising.html))
+- [Frame and Scale Media: Small business ad](https://frameandscalemedia.com/assets/portfolio/small_business_ad.mp4): Our own Meta ad for Frame and Scale Media: a website, logo, advertising and before and after content, all handled in one place for small businesses across the Valley, ending on a DM us call to action.
+- [Linda Duba: New build homes](https://frameandscalemedia.com/assets/portfolio/linda_phase1.mp4): New build homes starting at $399,900, shown through bright living spaces, the kitchen, the covered patio and the primary bedroom for agent Linda Duba.
+- [West Valley Property Works: Family business](https://frameandscalemedia.com/assets/portfolio/westvalley_family.mp4): The West Valley Property Works team explains what makes them different: a family business that does solid, honest work, with captions.
 - [Rancho Bella: Don't settle](https://frameandscalemedia.com/assets/portfolio/rancho_dont_settle.mp4): A Rancho Bella ad that moves from the shop to the ranch and the horses, built around the line Don't Settle for Basic Treatment and ending on the logo.
 - [Rancho Bella: Welcome to the ranch](https://frameandscalemedia.com/assets/portfolio/ranch_welcome.mp4): A welcome to the Rancho Bella ranch with drone shots, horses, equine therapy and UTVs, with captions.
-- [Linda Duba: New build homes](https://frameandscalemedia.com/assets/portfolio/linda_phase1.mp4): New build homes starting at $399,900, shown through bright living spaces, the kitchen, the covered patio and the primary bedroom for agent Linda Duba.
 - [Rancho Bella: The shop](https://frameandscalemedia.com/assets/portfolio/shop_welcome.mp4): A tour of the Rancho Bella shop: welding, metal fabrication, suspension work on a Mustang and a SEMA build, with captions.
-- [West Valley Property Works: Family business](https://frameandscalemedia.com/assets/portfolio/westvalley_family.mp4): The West Valley Property Works team explains what makes them different: a family business that does solid, honest work, with captions.
 
 ### Social reels ([page](https://frameandscalemedia.com/reels.html))
 - [Rancho Bella: Way too far to quit](https://frameandscalemedia.com/assets/portfolio/way_too_far.mp4): A sound designed reel of welding and grinding in the Rancho Bella shop.
+- [Rancho Bella: The crack](https://frameandscalemedia.com/assets/portfolio/the_crack.mp4): A reality style reel from the Rancho Bella shop as the crew wrestles the seat out of a Polaris UTV to reach the battery, with bold captions.
 - [RX7: Car meet](https://frameandscalemedia.com/assets/portfolio/will_rx7.mp4): A blue Mazda RX7 at a downtown car meet, from the crowd to close details of the paint, wheels and engine bay.
 - [Linda Duba: Listing reel](https://frameandscalemedia.com/assets/portfolio/linda_phase3.mp4): A fast, music driven listing reel with bold on screen text over each room of a new build home.
 - [Track day: Recap](https://frameandscalemedia.com/assets/portfolio/track_day_recap.mp4): A quick recap of a night at the drag strip with burnouts, launches and the cars lined up in the staging lanes.
