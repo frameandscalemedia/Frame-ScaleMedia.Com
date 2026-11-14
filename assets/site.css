@@ -573,3 +573,9 @@ main{overflow-x:clip;}                       /* nothing can push a page sideways
   .pf-panel-actions{width:100%;}
   .pf-panel-actions .btn{flex:1 1 auto;text-align:center;}
 }
+
+/* Pop out with five videos */
+.example-grid--5{grid-template-columns:repeat(5,1fr);}
+.pf-panel .feature-example{margin-bottom:16px;}
+@media (max-width:1000px){ .example-grid--5{grid-template-columns:repeat(3,1fr);} }
+@media (max-width:640px){ .example-grid--5{grid-template-columns:repeat(2,1fr);} }
